@@ -22,12 +22,13 @@ function sayHiToGrandma(string) {
   var lowercase = 'hello'
   if (lowercase.toLowerCase() === lowercase) {
     return "I can't hear you!" 
-    
+  } else {
+    return "I love you, too."
   }
 }
  
  
 sayHiToGrandma('hello')
-sayHiToGrandma('HELLO')
+sayHiToGrandma('I love you, Grandma.')
 
  
